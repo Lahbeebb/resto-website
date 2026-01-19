@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Dish Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="auth">
+    <button onclick="openAuthModal()">Connexion</button>
+</div>
+
+        <div class="logo">
+            <p><span>Your</span>Dish</p>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html">Acceuil</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about_us">A Propos</a></li>
+            <li><a href="#reservation">Réservation</a></li>
+            <li><a href="#" onclick="openReclamationModal()">Réclamation</a></li>
+        </ul>
+
+        <!-- menu responsive -->
+        <div class="toggle_menu"></div>
+    </header>
+
+    <!-- section acceuil home -->
+
+    <section id="home">
+        <div class="left" id="#menu">
+            <h4>Our New Menu</h4>
+            <h1>AFRICAN CHICKEN</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa sequi eveniet sed quidem reprehenderit libero officiis.</p>
+             <button><a href="#menu">commander maintenant</a></button>
+        </div>
+        <div class="right">
+            <img src="images/img1.png">
+        </div>
+    </section>
+
+      
+
+       <!-- section menu -->
+<section id="menu">
+    <h4 class="mini_title">Ours Menu</h4>
+    <h2 class="title">Popular Menu</h2>
+    <div class="dishes">
+        <div class="dish">
+            <img src="images/img1.png">
+            <p>Chicken Orido</p>
+            <h2>35d</h2>
+<a href="#" >BUY</a>        
+</div>
+        <div class="dish">
+            <img src="images/img2.png">
+            <p>Chicken Orido</p>
+            <h2>20.5d</h2>
+            <a href="#" >BUY</a>
+        </div>
+        <div class="dish">
+            <img src="images/img3.png">
+            <p>Chicken Orido</p>
+            <h2>45d</h2>
+            <a href="#" >BUY</a>
+        </div>
+        <div class="dish">
+            <img src="images/img4.png">
+            <p>Chicken Orido</p>
+            <h2>32d</h2>
+            <a href="#" >BUY</a>
+        </div>
+        <div class="dish">
+            <img src="images/img5.png">
+            <p>Chicken Orido</p>
+            <h2>23d</h2>
+            <a href="#" >BUY</a>
+        </div>
+        <div class="dish">
+            <img src="images/img6.png">
+            <p>Chicken Orido</p>
+            <h2>18.5d</h2>
+            <a href="#" >BUY</a>
+        </div>
+    </div>
+</section>
+
+
+
+       <!-- section about us -->
+
+       <section id="about_us">
+            <h4 class="mini_title">About Us</h4>
+            <h2 class="title">Why choose us ?</h2>
+            <div class="about">
+                <div class="left">
+                    <img src="images/img-about-us.png">
+                </div>
+                <div class="right">
+                    <h3>Best Food in The Word</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae est, iure culpa ipsa tempora explicabo ullam similique? Ipsum, est, beatae adipisci autem dolores, dolore eveniet mollitia quibusdam eius provident fugiat!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ipsa non quis pariatur enim fugit ratione. Unde maiores veritatis eaque accusamus minus sunt, eligendi nisi officiis quis vitae dignissimos officia.</p>
+                    <button><a href="#c">Learn More</a></button>
+                </div>
+            </div>
+       </section>
+
+
+       <!-- section comments -->
+      <section class="comment_section" id="c">
+            <h4 class="mini_title">Comments</h4>
+            <h2 class="title"> What People this about us</h2>
+            <div class="comments">
+                <div class="comment">
+                    <div>
+                        <img src="images/hassine.jpg">
+                        <h4>BEN GHALIA HASSINE</h4>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, sequi repellat. Velit, temporibus! Repellat velit delectus vero suscipit ut, consequatur atque molestias obcaecati tenetur dignissimos! Eius eos reprehenderit aspernatur molestiae?</p>
+                </div>
+                <div class="comment">
+                    <div>
+                        <img src="images/ahmed.jpg">
+                        <h4>TRABELSI AHMED</h4>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, sequi repellat. Velit, temporibus! Repellat velit delectus vero suscipit ut, consequatur atque molestias obcaecati tenetur dignissimos! Eius eos reprehenderit aspernatur molestiae?</p>
+                </div>
+                <div class="comment">
+                    <div>
+                        <img src="images/aziz.jpg">
+                        <h4>BEN KADEDDA AZIZ</h4>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, sequi repellat. Velit, temporibus! Repellat velit delectus vero suscipit ut, consequatur atque molestias obcaecati tenetur dignissimos! Eius eos reprehenderit aspernatur molestiae?</p>
+                </div>
+                
+                 <div class="comment comment-oussema">
+                    <div>
+                        <img src="images/oussema.jpg">
+                        <h4>SEGHIR OUSSEMA</h4>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, sequi repellat. Velit, temporibus! Repellat velit delectus vero suscipit ut, consequatur atque molestias obcaecati tenetur dignissimos! Eius eos reprehenderit aspernatur molestiae?</p>
+                </div>
+
+
+            </div>
+      </section>
+
+     <!-- section reservation -->
+<section id="reservation">
+  <h4 class="mini_title">Reservation</h4>
+  <h2 class="title">Fill this form to make a reservation</h2>
+  <form action="reservation.php" method="POST">
+      <label>Your Name</label>
+      <input type="text" name="name" required>
+      
+      <label>Your Email</label>
+      <input type="email" name="email" required>
+      
+      <label>Your Number</label>
+      <input type="text" name="number" required>
+      
+      <label>Reservation Date</label>
+      <input type="date" name="date" required>
+      
+      <input type="submit" value="Make The Reservation">
+  </form>
+</section>
+
+
+
+
+
+
+      <!-- footer -->
+      <footer>
+          <div class="services_list">
+              <div class="service">
+                  <img src="images/clock.png" alt="">
+                  <h2>Ouverture</h2>
+                  <p>10h30 à 23h45</p>
+                  <p>23h45 à 9h30</p>
+              </div>
+
+              <div class="service">
+                <img src="images/pin.png" alt="">
+                <h2>Adresses</h2>
+                <p>MANAR 1</p>
+                <p>MANZAH 6</p>
+            </div>
+            <div class="service">
+                <img src="images/email.png" alt="">
+                <h2>Email</h2>
+                <p>lcs@gmail.com</p>
+                
+            </div>
+            <div class="service">
+                <img src="images/call.png" alt="">
+                <h2>Numbers</h2>
+                <p>90158389</p>
+                <p>26589714</p>
+            </div>
+            
+            <hr>
+          </div>
+
+          <p class="footer_text">Réalisé par <span>Faiz Dev</span> | Tous les droits sont réservés.</p>
+      </footer>
+
+
+
+
+    
+      <!-- MODAL Auth -->
+<!-- MODAL d'authentification -->
+<div id="authModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeAuthModal()">&times;</span>
+    
+    <!-- Onglets pour changer entre Sign Up et Sign In -->
+    <div class="tabs">
+      <button onclick="showTab('signup')">Sign Up</button>
+      <button onclick="showTab('signin')">Sign In</button>
+    </div>
+
+    <!-- Formulaire d'inscription -->
+    <div id="signup" class="auth-tab">
+      <form action="signup.php" method="POST">
+        <input type="text" name="nom" placeholder="Nom" required>
+        <input type="text" name="prenom" placeholder="Prénom" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Mot de passe" required>
+        <input type="password" name="confirm_password" placeholder="Confirmer mot de passe" required>
+        <input type="submit" value="Créer un compte">
+      </form>
+    </div>
+
+    <!-- Formulaire de connexion -->
+    <div id="signin" class="auth-tab" style="display:none;">
+      <form action="signin.php" method="POST">
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Mot de passe" required>
+        <input type="submit" value="Connexion">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal de commande -->
+<div id="orderModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeOrderModal()">&times;</span>
+    <h3>Passer votre commande</h3>
+
+    <!-- FORMULAIRE ENVOYÉ VERS PHP -->
+    <form id="orderForm" action="commande.php" method="POST">
+      <input type="text" name="nom" placeholder="Nom" required>
+      <input type="text" name="prenom" placeholder="Prénom" required>
+      <input type="text" name="ville" placeholder="Adresse" required>
+      <input type="text" name="tel" placeholder="Numéro de téléphone" required>
+      <input type="submit" value="Confirmer">
+    </form>
+    <p id="successMsg" style="display:none; color:green;">Merci, votre commande a été enregistrée avec succès.</p>
+  </div>
+</div>
+<script>
+    //  Ouvrir la fenêtre sin up sin in
+
+
+     function openAuthModal() {
+    document.getElementById('authModal').style.display = 'block';
+  }
+
+  function closeAuthModal() {
+    document.getElementById('authModal').style.display = 'none';
+  }
+
+  function showTab(tab) {
+    document.getElementById('signup').style.display = (tab === 'signup') ? 'block' : 'none';
+    document.getElementById('signin').style.display = (tab === 'signin') ? 'block' : 'none';
+  }
+
+
+ 
+
+
+//  Ouvrir la fenêtre modale quand on clique sur "BUY"
+document.querySelectorAll('.dish a').forEach(button => {
+  button.addEventListener('click', (e) => {
+    e.preventDefault(); // Empêche le comportement par défaut du lien
+    document.getElementById('orderModal').style.display = 'block'; // Affiche la modale
+  });
+});
+
+//  Fermer la modale
+function closeOrderModal() {
+  document.getElementById('orderModal').style.display = 'none';
+}
+
+//  Gestion de l'envoi du formulaire de commande
+document.getElementById('orderForm').addEventListener('submit', function(e) {
+  e.preventDefault(); // Empêche le rechargement de la page
+
+  const formData = new FormData(this); // Récupère les données du formulaire
+
+  //  Envoie des données au fichier PHP (commande.php)
+  fetch('commande.php', {
+    method: 'POST',
+    body: formData
+  })
+  .then(res => res.text()) // On récupère la réponse en texte
+  .then(response => {
+    if (response.trim() === 'success') {
+      // Si la commande est enregistrée avec succès :
+      document.getElementById('orderForm').style.display = 'none'; // Cacher le formulaire
+      const successMsg = document.getElementById('successMsg');
+      successMsg.style.display = 'block'; // Afficher le message de succès
+
+      //  Après 3 secondes, cacher le message, réinitialiser le formulaire et fermer la modale
+      setTimeout(() => {
+        successMsg.style.display = 'none'; // Cacher le message
+        document.getElementById('orderForm').reset(); // Vider les champs
+        document.getElementById('orderForm').style.display = 'block'; // Réafficher le formulaire
+        closeOrderModal(); // Fermer la fenêtre modale
+      }, 3000); //  délai de 3 secondes
+    } else {
+      // Si erreur côté serveur, afficher une alerte
+      alert('Erreur lors de l\'enregistrement !');
+    }
+  });
+});
+
+
+
+// Ouvrir la fenêtre modale de réclamation
+function openReclamationModal() {
+  document.getElementById('reclamationModal').style.display = 'block';
+}
+
+// Fermer la fenêtre modale de réclamation
+function closeReclamationModal() {
+  document.getElementById('reclamationModal').style.display = 'none';
+}
+
+// Gestion de l'envoi du formulaire de réclamation
+document.getElementById('reclamationForm').addEventListener('submit', function(e) {
+  e.preventDefault(); // Empêche le rechargement de la page
+
+  const formData = new FormData(this); // Récupère les données du formulaire
+
+  // Envoie des données au fichier PHP (reclamation.php)
+  fetch('reclamation.php', {
+    method: 'POST',
+    body: formData
+  })
+  .then(res => res.text()) // On récupère la réponse en texte
+  .then(response => {
+    if (response.trim() === 'success') {
+      // Si la réclamation est envoyée avec succès :
+      document.getElementById('reclamationForm').style.display = 'none'; // Cacher le formulaire
+      const successMsg = document.getElementById('reclamationSuccessMsg');
+      successMsg.style.display = 'block'; // Afficher le message de succès
+
+      // Après 3 secondes, cacher le message, réinitialiser le formulaire et fermer la modale
+      setTimeout(() => {
+        successMsg.style.display = 'none'; // Cacher le message
+        document.getElementById('reclamationForm').reset(); // Vider les champs
+        document.getElementById('reclamationForm').style.display = 'block'; // Réafficher le formulaire
+        closeReclamationModal(); // Fermer la fenêtre modale
+      }, 3000); // Délai de 3 secondes
+    } else {
+      // Si erreur côté serveur, afficher une alerte
+      alert('Erreur lors de l\'enregistrement de votre réclamation !');
+    }
+  });
+});
+
+
+
+
+
+
+
+
+</script>
+
+<!-- Modal Réclamation -->
+<div id="reclamationModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeReclamationModal()">&times;</span>
+    <h2>Formulaire de Réclamation</h2>
+
+    <!-- Formulaire de réclamation -->
+    <form id="reclamationForm" action="reclamation.php" method="POST">
+      <input type="text" name="nom" placeholder="Nom" required>
+      <input type="text" name="prenom" placeholder="Prénom" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="message" placeholder="Votre message de réclamation" required></textarea>
+      <input type="submit" value="Envoyer la Réclamation">
+    </form>
+   
+  </div>
+</div>
+<style>
+
+
+
+
+/* Style du formulaire */
+
+#reclamationForm input, #reclamationForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#reclamationForm input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+</style>
+</body>
+
+
+</html>
